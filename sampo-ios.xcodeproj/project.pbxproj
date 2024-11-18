@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BDA604212CEB6BBC002F77B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA604082CEB6BBA002F77B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA6040F2CEB6BBA002F77B3;
+			remoteInfo = "sampo-ios";
+		};
+		BDA6042B2CEB6BBC002F77B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA604082CEB6BBA002F77B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA6040F2CEB6BBA002F77B3;
+			remoteInfo = "sampo-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDA604102CEB6BBA002F77B3 /* sampo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sampo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA604202CEB6BBC002F77B3 /* sampo-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sampo-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6042A2CEB6BBC002F77B3 /* sampo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sampo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BDA604122CEB6BBA002F77B3 /* sampo-ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sampo-ios";
+			sourceTree = "<group>";
+		};
+		BDA604232CEB6BBC002F77B3 /* sampo-iosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sampo-iosTests";
+			sourceTree = "<group>";
+		};
+		BDA6042D2CEB6BBC002F77B3 /* sampo-iosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sampo-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA6040D2CEB6BBA002F77B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6041D2CEB6BBC002F77B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA604272CEB6BBC002F77B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA604072CEB6BBA002F77B3 = {
+			isa = PBXGroup;
+			children = (
+				BDA604122CEB6BBA002F77B3 /* sampo-ios */,
+				BDA604232CEB6BBC002F77B3 /* sampo-iosTests */,
+				BDA6042D2CEB6BBC002F77B3 /* sampo-iosUITests */,
+				BDA604112CEB6BBA002F77B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA604112CEB6BBA002F77B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA604102CEB6BBA002F77B3 /* sampo-ios.app */,
+				BDA604202CEB6BBC002F77B3 /* sampo-iosTests.xctest */,
+				BDA6042A2CEB6BBC002F77B3 /* sampo-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA6040F2CEB6BBA002F77B3 /* sampo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA604342CEB6BBC002F77B3 /* Build configuration list for PBXNativeTarget "sampo-ios" */;
+			buildPhases = (
+				BDA6040C2CEB6BBA002F77B3 /* Sources */,
+				BDA6040D2CEB6BBA002F77B3 /* Frameworks */,
+				BDA6040E2CEB6BBA002F77B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BDA604122CEB6BBA002F77B3 /* sampo-ios */,
+			);
+			name = "sampo-ios";
+			packageProductDependencies = (
+			);
+			productName = "sampo-ios";
+			productReference = BDA604102CEB6BBA002F77B3 /* sampo-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA6041F2CEB6BBC002F77B3 /* sampo-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA604372CEB6BBC002F77B3 /* Build configuration list for PBXNativeTarget "sampo-iosTests" */;
+			buildPhases = (
+				BDA6041C2CEB6BBC002F77B3 /* Sources */,
+				BDA6041D2CEB6BBC002F77B3 /* Frameworks */,
+				BDA6041E2CEB6BBC002F77B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA604222CEB6BBC002F77B3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BDA604232CEB6BBC002F77B3 /* sampo-iosTests */,
+			);
+			name = "sampo-iosTests";
+			packageProductDependencies = (
+			);
+			productName = "sampo-iosTests";
+			productReference = BDA604202CEB6BBC002F77B3 /* sampo-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA604292CEB6BBC002F77B3 /* sampo-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA6043A2CEB6BBC002F77B3 /* Build configuration list for PBXNativeTarget "sampo-iosUITests" */;
+			buildPhases = (
+				BDA604262CEB6BBC002F77B3 /* Sources */,
+				BDA604272CEB6BBC002F77B3 /* Frameworks */,
+				BDA604282CEB6BBC002F77B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA6042C2CEB6BBC002F77B3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BDA6042D2CEB6BBC002F77B3 /* sampo-iosUITests */,
+			);
+			name = "sampo-iosUITests";
+			packageProductDependencies = (
+			);
+			productName = "sampo-iosUITests";
+			productReference = BDA6042A2CEB6BBC002F77B3 /* sampo-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA604082CEB6BBA002F77B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					BDA6040F2CEB6BBA002F77B3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					BDA6041F2CEB6BBC002F77B3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BDA6040F2CEB6BBA002F77B3;
+					};
+					BDA604292CEB6BBC002F77B3 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BDA6040F2CEB6BBA002F77B3;
+					};
+				};
+			};
+			buildConfigurationList = BDA6040B2CEB6BBA002F77B3 /* Build configuration list for PBXProject "sampo-ios" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA604072CEB6BBA002F77B3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BDA604112CEB6BBA002F77B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA6040F2CEB6BBA002F77B3 /* sampo-ios */,
+				BDA6041F2CEB6BBC002F77B3 /* sampo-iosTests */,
+				BDA604292CEB6BBC002F77B3 /* sampo-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA6040E2CEB6BBA002F77B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6041E2CEB6BBC002F77B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA604282CEB6BBC002F77B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA6040C2CEB6BBA002F77B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA6041C2CEB6BBC002F77B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA604262CEB6BBC002F77B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA604222CEB6BBC002F77B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA6040F2CEB6BBA002F77B3 /* sampo-ios */;
+			targetProxy = BDA604212CEB6BBC002F77B3 /* PBXContainerItemProxy */;
+		};
+		BDA6042C2CEB6BBC002F77B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA6040F2CEB6BBA002F77B3 /* sampo-ios */;
+			targetProxy = BDA6042B2CEB6BBC002F77B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDA604322CEB6BBC002F77B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDA604332CEB6BBC002F77B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA604352CEB6BBC002F77B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sampo-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = F62Z5CJCVQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sampo-bu-sampo-ios.sampo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA604362CEB6BBC002F77B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sampo-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = F62Z5CJCVQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sampo-bu-sampo-ios.sampo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDA604382CEB6BBC002F77B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F62Z5CJCVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sampo-bu-sampo-ios.sampo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampo-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sampo-ios";
+			};
+			name = Debug;
+		};
+		BDA604392CEB6BBC002F77B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F62Z5CJCVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sampo-bu-sampo-ios.sampo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampo-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sampo-ios";
+			};
+			name = Release;
+		};
+		BDA6043B2CEB6BBC002F77B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F62Z5CJCVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sampo-bu-sampo-ios.sampo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sampo-ios";
+			};
+			name = Debug;
+		};
+		BDA6043C2CEB6BBC002F77B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F62Z5CJCVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sampo-bu-sampo-ios.sampo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sampo-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA6040B2CEB6BBA002F77B3 /* Build configuration list for PBXProject "sampo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA604322CEB6BBC002F77B3 /* Debug */,
+				BDA604332CEB6BBC002F77B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA604342CEB6BBC002F77B3 /* Build configuration list for PBXNativeTarget "sampo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA604352CEB6BBC002F77B3 /* Debug */,
+				BDA604362CEB6BBC002F77B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA604372CEB6BBC002F77B3 /* Build configuration list for PBXNativeTarget "sampo-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA604382CEB6BBC002F77B3 /* Debug */,
+				BDA604392CEB6BBC002F77B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA6043A2CEB6BBC002F77B3 /* Build configuration list for PBXNativeTarget "sampo-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA6043B2CEB6BBC002F77B3 /* Debug */,
+				BDA6043C2CEB6BBC002F77B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA604082CEB6BBA002F77B3 /* Project object */;
+}
